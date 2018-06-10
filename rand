@@ -1,0 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+ srand(time(0));
+ printf("%d\t", 1 + rand() % 49);
